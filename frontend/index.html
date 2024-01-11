@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>TankTactics</title>
+        <link data-trunk rel="rust" data-wasm-opt="0" data-keep-debug=true />
+        <link rel="stylesheet" href="https://unpkg.com/open-props"/>
+        <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/open-props/buttons.min.css"/>
+        <style>
+            #world {
+                width: 100vw;
+                height: 100vh;
+                display: inline-block;
+                position: relative;
+            }
+            #hud {
+                width: 200px;
+                overflow: hidden;
+                display: inline-block;
+                background-color: red;
+            }
+            .tile {
+                width:50px;
+                height:50px;
+                position: absolute;
+                margin: 0px;
+                padding: 10px;
+                border-width: 1px;
+                background-color: #495057;
+            }
+            .player {
+                background-color: blue;
+            }
+            .user {
+                background-color: violet;
+            }
+            .tokensig {
+                display: none;
+                position: absolute;
+            }
+            .tokens {
+                overflow-x: hidden;
+                overflow-y: scroll;
+                height: 200px;
+            }
+            #modal {
+                position: absolute;
+            }
+        </style>
+    </head>
+    <body style="overflow: hidden;">
+    </body>
+</html>

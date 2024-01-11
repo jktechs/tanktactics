@@ -1,0 +1,6 @@
+target
+.env
+.vscode
+secret.txt
+dist
+cargo.lock
